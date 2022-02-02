@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const ShortUrl = require('./moels/shortUrl')
 const app = express();
-
+app.use(express.static(__dirname + '/public'));
 mongoose.connect('mongodb://localhost/urlShortner',{
 	useNewUrlParser:true
 })

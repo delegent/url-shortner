@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body{
+	background-color: #252323;
+}
+.heading{
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+	text-shadow: 1px 1px 2px rgb(231, 231, 231);
+	 margin-top: 1rem;
+}
+.table-head{
+	color: #fff;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 2px 5px;
+}
+.width-80{
+	width: 80%;
+	display: inline;
+}
+.btn-success{
+	background-color: rgb(20, 146, 219);
+}
+.table-shadow{
+	box-shadow: 8px 10px 10px rgb(0, 0, 0), -5px -5px 8px rgb(88, 80, 80);
+	border-radius: 5px;
+}
+.table-data{
+	text-align: center;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+}
+
+#data{
+	color: #fff;
+}
