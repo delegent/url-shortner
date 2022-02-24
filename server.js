@@ -35,4 +35,4 @@ app.get('/:shortUrl', async function(req,res){
 	res.redirect(foundUrl.full);
 })
 
-app.listen(5000,()=>console.log("Server has started"));
+app.listen(3000,()=>console.log("Server has started"));
